@@ -1,19 +1,15 @@
 # API de Academia
 
-![Java](https://img.shields.io/badge/Java-17-blue)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-
 API RESTful desenvolvida em Spring Boot para o gerenciamento completo de uma academia, permitindo o controle de alunos, planos, treinos e pagamentos. Este projeto foi criado como uma solução robusta para aplicar conceitos de arquitetura em camadas, relacionamentos JPA, boas práticas de API REST e documentação automática.
 
 ## Funcionalidades
 
--   ✅ **Gerenciamento de Alunos:** Cadastro, consulta, atualização e inativação (exclusão lógica) de alunos.
--   ✅ **Gerenciamento de Planos:** CRUD completo para os planos oferecidos pela academia.
--   ✅ **Gerenciamento de Treinos:** CRUD para treinos, com associação flexível a múltiplos alunos (`ManyToMany`).
--   ✅ **Registro de Pagamentos:** Sistema para registrar pagamentos de alunos, com data automática e status.
--   ✅ **Regras de Negócio:** Validações implementadas, como a proibição de excluir treinos associados a alunos.
--   ✅ **Documentação:** API totalmente documentada com Swagger/OpenAPI para fácil visualização e teste dos endpoints.
+-   **Gerenciamento de Alunos:** Cadastro, consulta, atualização e inativação (exclusão lógica) de alunos.
+-   **Gerenciamento de Planos:** CRUD completo para os planos oferecidos pela academia.
+-   **Gerenciamento de Treinos:** CRUD para treinos, com associação flexível a múltiplos alunos (`ManyToMany`).
+-   **Registro de Pagamentos:** Sistema para registrar pagamentos de alunos, com data automática e status.
+-   **Regras de Negócio:** Validações implementadas, como a proibição de excluir treinos associados a alunos.
+-   **Documentação:** API totalmente documentada com Swagger/OpenAPI para fácil visualização e teste dos endpoints.
 
 ## Tecnologias Utilizadas
 
